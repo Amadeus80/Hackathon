@@ -4,7 +4,7 @@
   "description": "Hackathon",
   "main": "index.js",
   "scripts": {
-    "purgar:css": "purgecss --css build/css/app.css --content index.html --output build/css/app.min.css"
+    "purgar:css": "purgecss --css build/css/app.css --content index.html faqs.html --output build/css/app.min.css"
   },
   "repository": {
     "type": "git",
