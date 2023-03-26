@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="build/img/lince.png">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <title>Hackaton Intercentros Utrera</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-warning sticky-top text-primary">
+    <div class="container-fluid gap-3">
+        <div>
+            <a class="nav__titulo text-decoration-none" id="logo" href="index.html">Hackathon intercentros Utrera</a>
+            <img src="build/img/logo innicia.png" alt="logo innicia" class="img-fluid" height="50" width="50">
+            <img src="build/img/logo Andalucía Emprende.png" alt="logo andalucia emprende" class="img-fluid" height="50" width="50">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list text-primary"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto nav__enlaces gap-4">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html" id="botonInicio">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="faqs.html">FAQS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BASES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="http://www.hackathonutrera.com/">EDICIÓN ANTERIOR</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- FAQS -->
+<div class="bg-primary">
+    <h1 class="text-center text-warning pt-5">
+        FAQS
+    </h1>
+    <div class="accordion container p-5" id="accordionPanelsStayOpenExample">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="true" aria-controls="panelsStayOpen-collapse1">
+                ¿Cuál es el objetivo de este evento?
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse show">
+            <div class="accordion-body fs-4 faqs">
+                Hackathon Emprende Intercentros Utrera es una oportunidad para que los alumnos y alumnas participantes pongan acción a sus ideas, 
+                participando como protagonistas en la co-creación de soluciones innovadoras a un reto de una empresa. Esto, además, les permite 
+                mostrar su talento a las empresas del entorno. 
+            </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapse2">
+                    ¿Con qué metodologías se trabajan? 
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4 faqs">
+                    A lo largo del evento, se trabaja con las metodologías más innovadoras del mundo empresarial, 
+                    como son el prototipado de ideas, el Design Thinking, la técnica del Elevator Pitch, etc.
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapse3">
+                    ¿Qué empresa propondrá el reto? 
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4 faqs">
+                    El reto será propuesto por una empresa del entorno local basándose en su experiencia empresarial y 
+                    en los problemas que como empresario/a afronta cada día. 
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
+                    ¿Qué modalidades de participación existen?  
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4 faqs">
+                    Sólo se puede participar de manera presencial.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse5">
+                    ¿Cómo se desarrolla el evento?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4 faqs">
+                    <p>Los participantes trabajarán en equipos intercentros e interdisciplinares en un espacio preparado exclusivamente para esta jornada 
+                        y serán provistos con todos los materiales y herramientas que necesiten para desarrollar sus propuestas. 
+                    </p>
+                    <p>
+                        El evento comienza con el lanzamiento del reto por parte del empresario/a. A continuación, se asigna a cada equipo una zona de trabajo 
+                        y se les explican las herramientas con las que irán dando forma a su propuesta-solución del resto. 
+                    </p>
+                    <p>
+                        Los mentores de Andalucía Emprende son los encargados de explicar las herramientas y estarán a disposición de los participantes para sus consultas. 
+                    </p>
+                    <p>
+                        A lo largo del día, se hará una pausa para tomar un café (media hora) y para almorzar (una hora). Los participantes disfrutarán de café 
+                        y un catering dulce de manera gratuita gracias a las empresas colaboradoras Confitería Diego Vázquez y Cafés Mocaibo.  
+                    </p>
+                    <p>
+                        El evento concluye con la elección del equipo ganador y la entrega de premios. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false" aria-controls="panelsStayOpen-collapse6">
+                    ¿Dónde se celebrará? 
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4 faqs">
+                    Se celebrará en la planta baja de la Biblioteca Municipal de Utrera, sita en C/ Álvarez Quintero, 39. 
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false" aria-controls="panelsStayOpen-collapse7">
+                    ¿En qué consisten los premios? 
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4 faqs">
+                    Cada miembro del equipo ganador será premiado con un vale para material escolar valorado en 50 €. 
+                    Dicho vale se podrán canjear en una papelería de la localidad.  
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse8" aria-expanded="false" aria-controls="panelsStayOpen-collapse8">
+                    ¿Quién organiza el evento? 
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse8" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4 faqs">
+                    <p>
+                        El concepto y formato del evento es de Andalucía Emprende.
+                    </p> 
+                    <p>
+                        Hackathon Emprende Intercentros Utrera está organizado conjuntamente por el Centro Andaluz de Emprendimiento de Utrera, el Instituto de Enseñanza Secundaria, 
+                        Bachillerato y Formación Profesional IES Ponce de León (dentro del Programa INNICIA de cultura emprendedora) 
+                        y el Excmo. Ayuntamiento de Utrera. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- faqs organizacion -->
+    <h1 class="text-center text-warning pt-5">
+        Organización
+    </h1>
+
+    <div class="accordion container p-5" id="accordionPanels2">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse9" aria-expanded="true" aria-controls="panelsStayOpen-collapse9">
+                ¿Cuántos alumnos/as debe tener un equipo?
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse9" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                Los equipos tendrán entre 6 y 7 componentes.
+            </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse10" aria-expanded="true" aria-controls="panelsStayOpen-collapse10">
+                ¿Quién forma los equipos?
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse10" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                Los equipos los forma la organización teniendo como criterio principal 
+                que estos sean lo más interdisciplinares posible, puesto que esto enriquece las propuestas de solución. 
+            </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse11" aria-expanded="true" aria-controls="panelsStayOpen-collapse11">
+                ¿Qué tengo que llevar si asisto presencialmente? 
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse11" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                <p>
+                    Debes traer tu almuerzo para el almuerzo-convivencia que celebraremos sobre las 14.00 h. 
+                    También te recomendamos traer tu ordenador para trabajar, así como cargador tanto del ordenador como del móvil. 
+                </p> 
+                <p>
+                    Y, sobre todo, ven con ¡muchas ganas de disfrutar!
+                </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse12" aria-expanded="true" aria-controls="panelsStayOpen-collapse12">
+                ¿Cuándo sabremos el reto que debemos trabajar? 
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse12" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                El reto se conocerá el mismo día del evento.
+            </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse13" aria-expanded="true" aria-controls="panelsStayOpen-collapse13">
+                ¿De qué tipo será el reto que encontraremos? 
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse13" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                El reto estará relacionado con los Objetivos de Desarrollo Sostenible (ODS) y con la Agenda 2030. Asimismo partirá de un problema real de nuestro entorno más cercano. 
+                En cuanto a las soluciones podrán ser de todo tipo, desde productos, software, servicios, creaciones artísticas, etc. No hay límite a su creatividad y originalidad.	
+            </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse14" aria-expanded="true" aria-controls="panelsStayOpen-collapse14">
+                Durante la jornada, ¿hay algún tipo de seguimiento? 
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse14" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                Los técnicos presentes de Andalucía Emprende asistirán a los grupos de trabajo siempre que los requieran. 	
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- faqs horario -->
+    <h1 class="text-center text-warning pt-5">
+        Horario
+    </h1>
+
+    <div class="accordion container p-5" id="accordionPanels2">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse15" aria-expanded="true" aria-controls="panelsStayOpen-collapse15">
+                ¿Cuándo empieza y cuándo termina el evento? 
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse15" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                El evento empieza a las 9h el miércoles 19 de abril y acaba a las 20h de ese mismo día.  	
+            </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse16" aria-expanded="true" aria-controls="panelsStayOpen-collapse16">
+                ¿Hay espacios para descansar? 
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse16" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                <p>
+                    Es imprescindible que existan momentos de distensión y descanso. 
+                    Desde la organización somos conscientes de la importancia de las pausas para generar buenas propuestas de solución. 
+                    Por tanto, en el horario habrá tiempo para todo: para tomar un café, para picar algo, para almorzar, para hablar con otros equipos.
+                </p> 
+                <p>
+                    La zona del catering por cortesía de los colaboradores Confitería Diego Vázquez 
+                    y Cafés Mocaibo se montará en el exterior si el tiempo lo permite para disfrutar del aire libre. 
+                    También podremos almorzar en este espacio. 
+                </p> 	
+            </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse17" aria-expanded="true" aria-controls="panelsStayOpen-collapse17">
+                ¿Y a la hora de las comidas?
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapse17" class="accordion-collapse collapse">
+            <div class="accordion-body fs-4 faqs">
+                Habrá una pequeña pausa para tomar un café o té y algo dulce a principios de la mañana y una pausa de una hora para comer sobre las 14h aprox. 
+                Cada participante debe traer su comida. 	
+            </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <!-- FOOTER -->
+    <footer class="p-4 bg-warning text-center">
+        <h4 class="text-center">Web realizada por alumnado del CFGS "DAW" del IES Ruiz Gijón. 2023</h4>
+    </footer>
+
+
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="node_modules/aos/dist/aos.js"></script>
+</html>

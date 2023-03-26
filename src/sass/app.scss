@@ -1,0 +1,20 @@
+
+$warning: rgb(229, 229, 37);
+$primary: rgb(0, 1, 31);
+@font-face {
+    font-family: "Barlow";
+    src: url("../../build/fonts/BarlowCondensed-Black.ttf");
+}
+
+@font-face {
+    font-family: "Barlow light";
+    src: url("../../build/fonts/BarlowCondensed-Light.ttf");
+}
+
+@font-face {
+    font-family: "Hacker";
+    src: url("../../build/fonts/Mad\ Hacker.ttf");
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

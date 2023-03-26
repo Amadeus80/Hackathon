@@ -1,0 +1,33 @@
+{
+  "name": "hackaton",
+  "version": "1.0.0",
+  "description": "Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "purgar:css": "purgecss --css build/css/app.css --content index.html --output build/css/app.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amadeus80/Hackathon.git"
+  },
+  "keywords": [
+    "Hackathon"
+  ],
+  "author": "Pablo, Alberto, Adrián, Fernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amadeus80/Hackathon/issues"
+  },
+  "homepage": "https://github.com/Amadeus80/Hackathon#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "gulp": "^4.0.2",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^5.1.0",
+    "purgecss": "^5.0.0",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
